@@ -1,0 +1,181 @@
+/* ==========================================================================
+  Portable.css - SCSS version
+   ========================================================================== */
+
+/* Color variables
+   ========================================================================== */
+
+$color-gray-50:   #F2F2F2;
+$color-gray-100:  #E6E6E6;
+$color-gray-200:  #CCCCCC;
+$color-gray-300:  #B3B3B3;
+$color-gray-400:  #999999;
+$color-gray-500:  #808080;
+$color-gray-600:  #666666;
+$color-gray-700:  #4D4D4D;
+$color-gray-800:  #333333;
+$color-gray-900:  #000000;
+
+$color-blue-200:  #959EF8;
+$color-blue-500:  #4F51D9;
+$color-blue-700:  #3D32B0;
+
+
+/* E-base
+   ========================================================================== */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-family: Inter, Arial, sans-serif;
+  padding: 2.4rem;
+  color: $color-gray-800;
+}
+
+strong {
+  color: $color-gray-900;
+}
+
+h1, h2, h3 {
+  color: $color-gray-800;
+  @media (prefers-color-scheme: dark) {
+    color: $color-gray-400;
+  }
+  font-weight: 700;
+}
+
+a, a:link, a:visited {
+  color: $color-blue-500;
+}
+
+/* Preview
+   ========================================================================== */
+
+.c-preview {
+  padding: 2.4rem;
+  max-height: 30rem;
+  overflow: scroll;
+  border: 0.1rem solid $color-gray-300;
+}
+
+.c-preview-header {
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 0 0 .4rem;
+}
+
+/* Textarea
+   ========================================================================== */
+
+.c-textarea {
+  width: 100%;
+  min-height: 40rem;
+  padding: 0.3rem;
+  border: 0.1rem solid $color-gray-300;
+}
+
+.c-textarea--code {
+  font-family: monospace;
+}
+
+
+/* Main container
+   ========================================================================== */
+
+.main-container {
+  display: flex;
+}
+
+.main-container main {
+  flex: 1 1 auto;
+}
+
+.main-container aside {
+  flex: 0 0 24rem;
+  margin-right: 2.4rem;
+}
+
+/* Buttons
+   ========================================================================== */
+
+.c-button {
+  padding: 0.8rem 1.4rem;
+  display: inline-block;
+  appearance: none;
+  border-radius: 0.3rem;
+  text-decoration: none;
+}
+
+.c-button--default {
+  &,
+  &:link,
+  &:visited {
+    color: $color-gray-500;
+    background: $color-gray-100;
+  }
+}
+
+.c-button--primary {
+  &,
+  &:link,
+  &:visited {
+    color: #FFF;
+    background: $color-blue-500;
+  }
+}
+
+/* List
+   ========================================================================== */
+
+.c-list {
+  list-style: none;
+  padding: 0;
+}
+
+.c-list li {
+  border-bottom: 0.1rem solid $color-gray-300;
+  padding: 2.4rem;
+}
+
+.c-list li:last-child {
+  border: none;
+}
+
+.c-list img {
+  width: 10rem;
+}
+
+.c-list header h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.c-list header {
+  display: flex;
+  align-items: center;
+}
+
+.c-list header .cover {
+  flex: 0 0 auto;
+  padding-right: 1.5rem;
+}
+
+.c-list header .inner {
+  flex: 1 1 auto;
+}
+
+
+/* Card 
+   ========================================================================== */
+
+.c-card {
+  background: $color-gray-50;
+  border: 0.1rem solid $color-gray-100;
+  border-radius: 0.3rem;
+  padding: 1.6rem;
+  margin: 0 0 1.6rem;
+}

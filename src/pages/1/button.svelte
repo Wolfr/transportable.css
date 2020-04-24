@@ -1,5 +1,5 @@
 <script>
-  import Code from  './Code.svelte';
+  import Code from  '../Code.svelte';
 </script>
   
 <style>
@@ -41,7 +41,7 @@
 
 </style>
 
-<h4>Preview</h4>
+<h4 class="c-preview-header">Preview</h4>
 
 <div class="c-preview">
   <a class="c-button c-button--default" href="/">Button</a>

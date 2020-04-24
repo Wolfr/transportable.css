@@ -1,5 +1,5 @@
 <script>
-  import Code from  './Code.svelte';
+  import Code from  '../Code.svelte';
   
   const items = [
     {
@@ -21,8 +21,9 @@
   ]
 
 </script>
-  
+
 <style>
+
   /* Buttons
      ========================================================================== */
 
@@ -115,7 +116,7 @@
   <li>Button</li>
 </ul>
 
-<h4>Preview</h4>
+<h4 class="c-preview-header">Preview</h4>
 
 <div class="c-preview">
   <ul class="c-list">

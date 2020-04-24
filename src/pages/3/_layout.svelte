@@ -1,3 +1,6 @@
+<script>
+  import SidebarContent from '../SidebarContent.svelte';
+</script>
 <style>
 
   .main-container {
@@ -17,33 +20,12 @@
 
 <svelte:head>
   <link rel='stylesheet' href='/reset.css'>
-  <link rel='stylesheet' href='/scss-base.css'>
+  <link rel='stylesheet' href='/build/scssversion.css'>
 </svelte:head>
 
 <div class="main-container">
   <aside>
-
-    <h4>1. Start here...</h4>
-
-    <p>Copy this in your style sheet:</p>
-
-    <ul>
-      <li><a href="/3/reset">Reset</a></li>
-    </ul>
-
-    <h4>2. Now choose a color theme:</h4>
-
-    <ul>
-      <li><a href="/3/base-theme">Base theme</a></li>
-    </ul>
-
-    <h4>3. Now let's use some components</h4>
-
-    <ul>
-      <li><a href="/3/card">Card</a></li>
-      <li><a href="/3/button">Button</a></li>
-      <li><a href="/3/list">List</a></li>
-    </ul>
+    <SidebarContent no="3" />
   </aside>
 
   <main>

@@ -1,5 +1,5 @@
 <script>
-  import Code from  './Code.svelte';
+  import Code from  '../Code.svelte';
   
   const items = [
     {
@@ -115,13 +115,12 @@
   <li>Button</li>
 </ul>
 
-<h4>Preview</h4>
+<h4 class="c-preview-header">Preview</h4>
 
 <div class="c-preview">
   <ul class="c-list">
     {#each items as item}
       <li>
-          <!-- <strong>{item.id}</strong> -->
           <header>
             <div class="cover">
               <img src="{item.imageUrl}" />
@@ -144,11 +143,30 @@
 <Code>
   <div slot="html">
     <textarea class="c-textarea c-textarea--code">{`
-     <ul class="c-list">
-       <li>Item 1</li>
-       <li>Item 2</li>
-       <li>Item 3</li>
-     </ul> 
+<ul class="c-list">
+    <li>
+        <header>
+            <div class="cover "><img src="http://placehold.it/200x150"></div>
+            <div class="inner ">
+                <h3>User interface designer</h3>
+                <p>Mono</p>
+            </div>
+        </header>
+        <div class="c-content ">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div> <a class="c-button c-button--default " href="https://mono.company/jobs/ui-designer-developer-apprenticeship/">View job post</a> </li>
+    <li>
+        <header>
+            <div class="cover "><img src="http://placehold.it/200x150"></div>
+            <div class="inner ">
+                <h3>User interface designer</h3>
+                <p>Mono</p>
+            </div>
+        </header>
+        <div class="c-content ">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div> <a class="c-button c-button--default " href="https://mono.company/jobs/ui-designer-developer-apprenticeship/">View job post</a> </li>
+</ul>
     `}</textarea>
   </div>
   <div slot="css">

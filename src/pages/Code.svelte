@@ -1,6 +1,16 @@
+<script>
+  export let scss;
+</script>
 <style>
-  
+
+  h4 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 0 0 .4rem;
+  }
+
   .c-columns {
+    margin-top: 1.6rem;
     display: flex;
     width: 100%;
   }
@@ -19,14 +29,17 @@
 
 </style>
 
-
 <div class="c-columns">
   <div class="c-columns__column">
       <h4>HTML</h4>
       <slot name="html"></slot>
   </div>
   <div class="c-columns__column">
-      <h4>CSS</h4>
+      {#if scss}
+        <h4>SCSS</h4>
+      {:else}
+        <h4>CSS</h4>
+      {/if}
       <slot name="css"></slot>
   </div>
 </div>

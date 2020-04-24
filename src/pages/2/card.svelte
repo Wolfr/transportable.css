@@ -1,18 +1,18 @@
 <script>
-  import Code from  './Code.svelte';
+  import Code from  '../Code.svelte';
 </script>
 
 <style>
   /* Card 
      ========================================================================== */
 
-  :root {
-    --card-bg: var(--gray-200);
-    --card-border: var(--gray-100);
+  .c-card  {
+    --card-bg: var(--gray-100);
+    --card-border: var(--gray-200);
   }
 
   @media (prefers-color-scheme: dark) {
-    :root {
+    .c-card {
       --card-bg: var(--gray-900);
       --card-border: var(--gray-900);
     }
@@ -28,7 +28,7 @@
 
 </style>
 
-<h4>Preview</h4>
+<h4 class="c-preview-header">Preview</h4>
 
 <div class="c-preview">
  <div class="c-card">
@@ -50,8 +50,8 @@
    ========================================================================== */
 
 :root {
-  --card-bg: var(--gray-200);
-  --card-border: var(--gray-100);
+  --card-bg: var(--gray-100);
+  --card-border: var(--gray-200);
 }
 
 @media (prefers-color-scheme: dark) {

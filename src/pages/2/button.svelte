@@ -1,12 +1,12 @@
 <script>
-  import Code from  './Code.svelte';
+  import Code from  '../Code.svelte';
 </script>
   
 <style>
   /* Buttons
      ========================================================================== */
 
-  :root {
+  .c-button {
     --button-default-bg: var(--gray-200);
     --button-default-color: var(--gray-700);
     --button-primary-bg: var(--blue-500);
@@ -14,7 +14,7 @@
   }
 
   @media (prefers-color-scheme: dark) {
-    :root {
+    .c-button {
       --button-default-bg: var(--gray-800);
       --button-default-color: var(--gray-300);
       --button-primary-bg: var(--blue-500);
@@ -41,7 +41,7 @@
 
 </style>
 
-<h4>Preview</h4>
+<h4 class="c-preview-header">Preview</h4>
 
 <div class="c-preview">
   <a class="c-button c-button--default" href="/">Button</a>
