@@ -59,3 +59,10 @@
   <li><a href="/{no}/button">Button</a></li>
   <li><a href="/{no}/list">List</a></li>
 </ul>
+
+<h4>Extras</h4>
+
+<ul>
+  <li><a href="/html-ipsum">HTML ipsum</a></li>
+  <li><a href="/svelte-snippets">Svelte snippets</a></li>
+</ul>

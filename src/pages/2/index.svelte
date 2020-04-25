@@ -1,7 +1,10 @@
 <style>
+
   .c-content p {
     margin: 0 0 1.6rem;
+    padding: 0;
   }
+
   .c-content strong {
     font-weight: 700;
   }

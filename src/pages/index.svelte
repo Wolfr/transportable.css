@@ -17,6 +17,7 @@
 </style>
 
 <div>
+
     <p>Welcome to the transportable.css documentation. </p>
 
     <p>Transportable.css is an easy way to copy/paste HTML/CSS snippets to use in your projects. The CSS is written in a way that is self-contained.</p>
@@ -28,4 +29,5 @@
     <hr />
 
     <p>A side project by <a href="https://twitter.com/wolfr_2">@wolfr_2</a></p>
+
 </div>
