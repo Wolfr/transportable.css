@@ -4,15 +4,15 @@
 
 <style>
 
-  .main-container {
+  .ct-main-container {
     display: flex;
   }
 
-  .main-container main {
+  .ct-main-container main {
     flex: 1 1 auto;
   }
   
-  .main-container aside {
+  .ct-main-container aside {
     flex: 0 0 24rem;
     margin-right: 2.4rem;
   }
@@ -22,10 +22,11 @@
 <svelte:head>
   <link rel='stylesheet' href='/reset.css'>
   <link rel='stylesheet' href='/build/global-css-vars.css'>
+  <link rel='stylesheet' href='/build/transportable-docs.css'>
 </svelte:head>
 
 
-<div class="main-container">
+<div class="ct-main-container">
 
   <aside>
     <SidebarContent no="2" />

@@ -1,0 +1,40 @@
+
+/* List
+   ========================================================================== */
+
+.c-list {
+  list-style: none;
+  padding: 0;
+}
+
+.c-list li {
+  border-bottom: 0.1rem solid $color-gray-300;
+  padding: 2.4rem;
+}
+
+.c-list li:last-child {
+  border: none;
+}
+
+.c-list img {
+  width: 10rem;
+}
+
+.c-list header h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.c-list header {
+  display: flex;
+  align-items: center;
+}
+
+.c-list header .cover {
+  flex: 0 0 auto;
+  padding-right: 1.5rem;
+}
+
+.c-list header .inner {
+  flex: 1 1 auto;
+}

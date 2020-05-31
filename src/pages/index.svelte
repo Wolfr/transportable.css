@@ -24,8 +24,6 @@
 
     <p>By copy pasting a few files you are up and running to build out the styles of your project, however small it is.</p>
 
-    <p>Please choose a flavor of transportable in the top menu to continue.</p>
-
     <hr />
 
     <p>A side project by <a href="https://twitter.com/wolfr_2">@wolfr_2</a></p>

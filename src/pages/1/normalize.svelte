@@ -1,6 +1,6 @@
 <style>
 
-  .c-textarea {
+  .ct-textarea {
     min-height: 80rem;
   }
 
@@ -8,7 +8,7 @@
 
 
 
-<textarea class="c-textarea c-textarea--code">{`
+<textarea class="ct-textarea ct-textarea--code textarea--code-full-component">{`
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document

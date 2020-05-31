@@ -1,5 +1,5 @@
 <script>
-  import Code from  '../Code.svelte';
+  import Code from  '../../Code.svelte';
   
   const items = [
     {
@@ -109,15 +109,17 @@
     flex: 1 1 auto;
   }
 </style>
-<h4>Dependency</h4>
 
-<ul>
+
+<h4 class="ct-component-dependency-title">Dependency</h4>
+
+<ul class="ct-component-dependency-list">
   <li>Button</li>
 </ul>
 
-<h4 class="c-preview-header">Preview</h4>
+<h4 class="ct-preview-header">Preview</h4>
 
-<div class="c-preview">
+<div class="ct-preview">
   <ul class="c-list">
     {#each items as item}
       <li>
@@ -142,7 +144,7 @@
 
 <Code>
   <div slot="html">
-    <textarea class="c-textarea c-textarea--code">{`
+    <textarea class="ct-textarea ct-textarea--code textarea--code-full-component">{`
 <ul class="c-list">
     <li>
         <header>
@@ -170,7 +172,7 @@
     `}</textarea>
   </div>
   <div slot="css">
-    <textarea class="c-textarea c-textarea--code">{`
+    <textarea class="ct-textarea ct-textarea--code textarea--code-full-component">{`
 /* List
    ========================================================================== */
 

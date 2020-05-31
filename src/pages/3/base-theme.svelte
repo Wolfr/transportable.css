@@ -1,14 +1,14 @@
 <style>
 
-  .c-textarea {
+  .ct-textarea {
     min-height: 60rem;
   }
 
 </style>
 
-<textarea class="c-textarea c-textarea--code">{`
+<textarea class="ct-textarea ct-textarea--code textarea--code-full-component">{`
 
-/* Colors 
+/* Colors (SCSS)
    ========================================================================== */
 
 $gray-0:    #FFFFFF;
@@ -25,18 +25,11 @@ $gray-900:  #2F2F30;
 $gray-1000: #000000;
 $blue-0:    #D1D6FF;
 $blue-50:   #C2C8FE;
-$blue-100:  #B3BBFC;
 $blue-200:  #959EF8;
-$blue-300:  #7A83F0;
-$blue-400:  #6369E6;
 $blue-500:  #4F51D9;
-$blue-600:  #443FC7;
 $blue-700:  #3D32B0;
-$blue-800:  #382795;
-$blue-900:  #311D76;
-$blue-1000: #271457;
 
-/* E-base
+/* Base elements
    ========================================================================== */
 
 html {

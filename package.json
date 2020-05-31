@@ -1,6 +1,6 @@
 {
-  "name": "svelte-app",
-  "version": "1.0.0",
+  "name": "transportable",
+  "version": "0.2.0",
   "license": "MIT",
   "scripts": {
     "dev": "run-p routify rollup",

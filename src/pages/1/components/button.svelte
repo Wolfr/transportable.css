@@ -1,12 +1,12 @@
 <script>
-  import Code from  '../Code.svelte';
+  import Code from  '../../Code.svelte';
 </script>
   
 <style>
   /* Buttons
      ========================================================================== */
 
-  .c-button {
+  :root {
     --button-default-bg: var(--gray-200);
     --button-default-color: var(--gray-700);
     --button-primary-bg: var(--blue-500);
@@ -14,7 +14,7 @@
   }
 
   @media (prefers-color-scheme: dark) {
-    .c-button {
+    :root {
       --button-default-bg: var(--gray-800);
       --button-default-color: var(--gray-300);
       --button-primary-bg: var(--blue-500);
@@ -38,25 +38,24 @@
     color: var(--button-primary-color);
     background: var(--button-primary-bg);
   }
-
 </style>
 
-<h4 class="c-preview-header">Preview</h4>
+<h4 class="ct-preview-header">Preview</h4>
 
-<div class="c-preview">
+<div class="ct-preview">
   <a class="c-button c-button--default" href="/">Button</a>
   <a class="c-button c-button--primary" href="/">Button</a>
 </div>
 
 <Code>
   <div slot="html">
-    <textarea class="c-textarea c-textarea--code">{`
+    <textarea class="ct-textarea ct-textarea--code ct-textarea--code-full-component">{`
   <a class="c-button c-button--default" href="/">Button</a>
   <a class="c-button c-button--primary" href="/">Button</a>
     `}</textarea>
   </div>
   <div slot="css">
-    <textarea class="c-textarea c-textarea--code">{`
+    <textarea class="ct-textarea ct-textarea--code ct-textarea--code-full-component">{`
 /* Buttons
    ======================================= */
 

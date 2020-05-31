@@ -1,5 +1,5 @@
 <script>
-  import Code from  '../Code.svelte';
+  import Code from  '../../Code.svelte';
 </script>
 
 <style>
@@ -28,9 +28,9 @@
 
 </style>
 
-<h4 class="c-preview-header">Preview</h4>
+<h4 class="ct-preview-header">Preview</h4>
 
-<div class="c-preview">
+<div class="ct-preview">
  <div class="c-card">
      <p>Content</p>
   </div>
@@ -38,14 +38,14 @@
 
 <Code>
   <div slot="html">
-    <textarea class="c-textarea c-textarea--code">{`
+    <textarea class="ct-textarea ct-textarea--code textarea--code-full-component">{`
 <div class="c-card">
  <p>Content</p>
 </div>
     `}</textarea>
   </div>
   <div slot="css">
-    <textarea class="c-textarea c-textarea--code">{`
+    <textarea class="ct-textarea ct-textarea--code textarea--code-full-component">{`
 /* Card 
    ========================================================================== */
 

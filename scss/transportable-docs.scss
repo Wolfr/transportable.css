@@ -1,0 +1,61 @@
+:root {
+  --gray-400:  #999999;
+}
+
+/* Preview
+   ========================================================================== */
+
+.ct-preview {
+  padding: 2.4rem;
+  border: 0.1rem solid var(--gray-400);
+  max-height: 30rem;
+  overflow: scroll;
+}
+
+.ct-preview-header {
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 0 0 .4rem;
+}
+
+.ct-component-dependency-title {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.ct-component-dependency-list {
+  list-style: disc;
+  padding: 0 0 0 2.4rem;
+  margin: 1.6rem 0;
+}
+
+/* Textarea
+   ========================================================================== */
+
+.ct-textarea {
+  width: 100%;
+  padding: 0.3rem;
+  border: 0.1rem solid var(--gray-400);
+  min-height: 20rem;
+}
+
+.ct-textarea--code {
+  font-family: monospace;
+}
+
+/* Main container
+   ========================================================================== */
+
+.ct-main-container {
+  display: flex;
+}
+
+.ct-main-container main {
+  flex: 1 1 auto;
+}
+
+.ct-main-container aside {
+  flex: 0 0 24rem;
+  margin-right: 2.4rem;
+}
+

@@ -1,23 +1,21 @@
 <script>
-  import Code from  '../Code.svelte';
+  import Code from  '../../Code.svelte';
 </script>
 
-<h4 class="c-preview-header">Preview</h4>
+<h4 class="ct-preview-header">Preview</h4>
 
-<div class="c-preview">
+<div class="ct-preview">
   <a class="c-button c-button--default" href="/">Button</a>
   <a class="c-button c-button--primary" href="/">Button</a>
 </div>
 
 <Code>
   <div slot="html">
-    <textarea class="c-textarea c-textarea--code">{`
-  <a class="c-button c-button--default" href="/">Button</a>
-  <a class="c-button c-button--primary" href="/">Button</a>
-    `}</textarea>
+    <textarea class="ct-textarea ct-textarea--code textarea--code-full-component">{`<a class="c-button c-button--default" href="/">Button</a>
+<a class="c-button c-button--primary" href="/">Button</a>`}</textarea>
   </div>
   <div slot="css">
-    <textarea class="c-textarea c-textarea--code">{`/* Buttons
+    <textarea class="ct-textarea ct-textarea--code textarea--code-full-component">{`/* Buttons
    ========================================================================== */
 
 .c-button {

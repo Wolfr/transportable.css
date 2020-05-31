@@ -1,12 +1,12 @@
 <style>
 
-  .c-textarea {
+  .ct-textarea {
     min-height: 60rem;
   }
 
 </style>
 
-<textarea class="c-textarea c-textarea--code">{`
+<textarea class="ct-textarea ct-textarea--code textarea--code-full-component">{`
 :root {
   font-size: 62.5%;
   --gray-50:   #F2F2F2;

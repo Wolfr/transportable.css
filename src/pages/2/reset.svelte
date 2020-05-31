@@ -1,12 +1,12 @@
 <style>
 
-  .c-textarea {
+  .ct-textarea {
     min-height: 80rem;
   }
 
 </style>
 
-<textarea class="c-textarea c-textarea--code">{`
+<textarea class="ct-textarea ct-textarea--code textarea--code-full-component">{`
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
